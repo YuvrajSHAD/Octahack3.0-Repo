@@ -1,0 +1,367 @@
+
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>Doctor Search Form a Flat Responsive Widget Template :: w3layouts </title>
+      <!-- Meta tags -->
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+      <meta name="keywords" content="Doctor Search Form Responsive Widget, Audio and Video players, Login Form Web Template, Flat Pricing Tables, Flat Drop-Downs, Sign-Up Web Templates, Flat Web Templates, Login Sign-up Responsive Web Template, Smartphone Compatible Web Template, Free Web Designs for Nokia, Samsung, LG, Sony Ericsson, Motorola Web Design"
+         />
+      <script>
+         addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); }
+      </script>
+      <!-- Meta tags -->
+      <!-- Calendar -->
+      <link rel="stylesheet" href="css/jquery-ui.css" />
+      <!-- //Calendar -->
+      <!--stylesheets-->
+      <!-- <link href="css/style.css" rel='stylesheet' type='text/css' media="all"> -->
+      <!--//style sheet end here-->
+      <link href="//fonts.googleapis.com/css?family=Cuprum:400,700" rel="stylesheet">
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+      
+   
+   <style>
+      div{
+         /* border: 1px solid red; */
+      }
+
+      .side_tiles{
+         padding: 20px;
+      }
+
+      .read-more
+      {
+         height: 50px;
+         background-image: linear-gradient(to bottom, transparent,#ffffff);
+         position: absolute;
+         bottom: 30px;
+         left: 0;
+         width: 100%;
+         text-align: center;
+         margin: 0; 
+         padding: 30px 0;
+        
+
+      }
+
+
+      
+body {
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(images/3.jpg);
+    background-repeat: no-repeat;
+    
+    background-position: center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    min-height: 100vh;
+    
+}
+   </style>
+   
+   
+   
+   </head>
+
+
+
+   <body>
+
+      <div id="faq-modal" class="modal fade" role="dialog">
+         <div class="modal-dialog">
+       
+           <!-- Modal content-->
+           <div class="modal-content">
+             <div class="modal-header">
+               <button type="button" class="close" data-dismiss="modal">&times;</button>
+               <h4 class="modal-title">FAQs</h4>
+             </div>
+             <div class="modal-body">
+               <p><b>Q. What is a chatbot?</b><br>
+                  A. A chatbot is a software application used to conduct an online chat conversation via text-to-speech.<br>
+                  
+                  <b>Q. What should i discuss with my primary care doctor?</b><br>
+                  A. A. Your symptoms.<br>
+                  B. Any medicines you are taking, including supplements.<br>
+                  C. Any side effects you have from your medicines.<br>
+                  
+                  <b>Q. How this bot is helpful?</b><br>
+                  A. Bots can provide healthcare professionals with appointment details and help them update patient records.<br>
+                  
+                  <b>Q. Is it mandatory to fill the feedback form?</b><br>
+                  A. Yes, it is mandatory to fill the feedback form because it will help to keep the doctors updated about their working. Moreover, any other new suggestions will also be welcomed.</p><br>
+             </div>
+             <div class="modal-footer">
+               <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+             </div>
+           </div>
+       
+         </div>
+       </div>
+
+
+
+
+
+       <div id="medical-modal" class="modal fade" role="dialog">
+         <div class="modal-dialog">
+       
+           <!-- Modal content-->
+           <div class="modal-content">
+             <div class="modal-header">
+               <button type="button" class="close" data-dismiss="modal">&times;</button>
+               <h4 class="modal-title">BOT</h4>
+             </div>
+             <div class="modal-body">
+               <p>Here a Bot will help pateints. </p><br>
+             </div>
+             <div class="modal-footer">
+               <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+             </div>
+           </div>
+       
+         </div>
+       </div>
+      
+
+
+
+
+       <div id="form-modal" class="modal fade" role="dialog">
+         <div class="modal-dialog">
+       
+           <!-- Modal content-->
+           <div class="modal-content">
+             <div class="modal-header">
+               <button type="button" class="close" data-dismiss="modal">&times;</button>
+               <h4 class="modal-title">Medical Form</h4>
+             </div>
+             <div class="modal-body">
+               
+               <form>
+                  <div class="form-group">
+                    <label for="name">Enter your name:</label>
+                    <input type="text" class="form-control" id="name" placeholder="Enter your name" name="name" required>
+                   
+                  </div>
+
+
+                  <div class="form-group">
+                     <label for="email">Enter your Email:</label>
+                     <input type="email" class="form-control" id="email" placeholder="Enter your Email" name="email" required>
+                    
+                   </div>
+
+                  <div class="form-group">
+                     <label for="age">Enter your age:</label>
+                     <input type="text" class="form-control" id="age" placeholder="Enter your age" name="age" required>
+                    
+                   </div>
+
+
+                   <div class="form-group">
+                     <label for="prob">Description of your problem:</label>
+                     <input type="text" class="form-control" id="prob" placeholder="Write here your problem" name="prob" required>
+                    
+                   </div>
+
+
+                  
+                  <div class="form-group form-check">
+                    <label class="form-check-label">
+                      <input class="form-check-input" type="radio" name="gender"> Female
+                      <input class="form-check-input" type="radio" name="gender"> Male
+                      <input class="form-check-input" type="radio" name="gender"> Other
+                      
+                    </label>
+                  </div>
+                  <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+             <div class="modal-footer">
+               <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+             </div>
+           </div>
+       
+         </div>
+       </div>
+      
+
+
+
+       <div id="form-modal" class="modal fade" role="dialog">
+         <div class="modal-dialog">
+       
+           <!-- Modal content-->
+           <div class="modal-content">
+             <div class="modal-header">
+               <button type="button" class="close" data-dismiss="modal">&times;</button>
+               <h4 class="modal-title">Medical Form</h4>
+             </div>
+             <div class="modal-body">
+               
+            
+            </div>
+             <div class="modal-footer">
+               <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+             </div>
+           </div>
+       
+         </div>
+       </div>
+
+
+
+
+
+
+
+      <div class="container-fluid" style="height: auto;">
+
+         <div class="row" style="height: 100px; font-family: 'Times New Roman', Times, serif; font-size: 40px;text-align: center;color: 
+         #ffffff;padding-top: 15px;">
+            Welcome! Get Your Free Medical Diagnose Reports Now
+         </div>
+
+         <div class="row" style="height: 510px;">
+            <div class="col-sm-8" style="padding:140px 70px;">
+               
+               <div style="float: left;">
+
+                                 <input type="text" placeholder="Email ID" style="font-size:20px;height:20px;width:400px;padding:25px 10px; border-radius:10px;">
+
+               </div>
+<div>
+                  <button type="button" style="margin-left:20px;height:50px;width:100px;border-radius: 10px;background-color:rgb(13, 199, 159);font-weight: bold;color: white;">Sign Up</button>
+
+</div>
+
+
+
+               <!-- <div">
+                  <label for="username"></label>
+                  <input type="text" id="Email" name="email" required placeholder="Email">
+
+               </div> -->
+
+            </div>
+            <div class="col-sm-4">
+               <div class="side_tiles" style="height: 170px;">
+                  <div style="background:white; position: relative;overflow: hidden;padding: 10px 10px 0px 10px;">
+                     <h3 style="margin:0;">FAQs</h3>
+                     <div style="margin-top:10px;">
+                        <table>
+                           <tr>
+                              <td>
+                                 General Problems Most of the Users Face
+                              </td>
+                           </tr>
+                           
+                        </table>
+
+
+                        <div class="read-more"></div>
+                        <p><button type="button" class="btn btn-light" data-toggle="modal" data-target="#faq-modal" style="padding: 0; background: white;cursor: default;color: blue;outline:none;">Read More</button></p>
+
+                        
+                       
+                     </div>
+
+                     
+                  </div>   
+               
+               </div>
+               <div class="side_tiles" style="height: 170px;">
+                  <div style="background:white; position: relative;overflow: hidden;padding: 10px 10px 0px 10px;">
+                     <h3 style="margin:0;">Medical Diagnose</h3>
+                     <div style="margin-top:10px;">
+                        <table>
+                           <tr>
+                              <td>
+                                Talk to the chat bot which will ask general questions...
+                              </td>
+                           </tr>
+                           
+                        </table>
+
+
+                        <div class="read-more"></div>
+                        <p><button type="button" class="btn btn-light" data-toggle="modal" data-target="#medical-modal" style="padding: 0; background: white;cursor: default;color: blue;outline:none;">Read More</button></p>
+
+                        
+                       
+                     </div>
+
+                     
+                  </div>   
+               
+               </div><div class="side_tiles" style="height: 170px;">
+                  <div style="background:white; position: relative;overflow: hidden;padding: 10px 10px 0px 10px;">
+                     <h3 style="margin:0;">Medical Form</h3>
+                     <div style="margin-top:10px;">
+                        <table>
+                           <tr>
+                              <td>
+                                 Fill this form to get doctor recommendations 
+                              </td>
+                           </tr>
+                           
+                        </table>
+
+
+                        <div class="read-more"></div>
+                        <p><button type="button" class="btn btn-light" data-toggle="modal" data-target="#form-modal" style="padding: 0; background: white;cursor: default;color: blue;outline:none;">Fill Form</button></p>
+
+                        
+                       
+                     </div>
+
+                     
+                  </div>   
+               
+               </div>
+            </div>
+
+
+         </div>
+
+
+
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+      <!-- <div class="copy">
+         <p>&copy; 2018 Doctor Search Form. All Rights Reserved | Design by <a href="http://www.W3Layouts.com" target="_blank">W3Layouts</a></p>
+      </div> -->
+      <!--scripts-->
+      
+      
+      <script src='js/jquery-2.2.3.min.js'></script>
+      <!--//scripts-->
+      <!-- //js -->
+      <!-- Calendar -->
+      <script src="js/jquery-ui.js"></script>
+      <script>
+         $(function() {
+         $( "#datepicker,#datepicker1,#datepicker2,#datepicker3" ).datepicker();
+         });
+      </script>
+    
+    <!-- //Calendar -->
+   </body>
+</html>
